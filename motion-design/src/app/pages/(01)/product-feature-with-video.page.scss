@@ -1,0 +1,54 @@
+main {
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  line-height: 1.5;
+  color: #d0d0d1;
+}
+
+.muted {
+  color: #8a8b8c;
+}
+
+h2 {
+  margin: 0 0 1rem;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.large {
+  font-size: 1.125rem;
+}
+
+#feature {
+  background-color: #151618;
+  padding: 8rem 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  height: 100vh;
+}
+
+#feature header {
+  margin-bottom: 4rem;
+}
+
+#content {
+  max-width: 40rem;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
