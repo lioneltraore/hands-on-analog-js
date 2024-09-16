@@ -33,8 +33,8 @@ export class AnalogWelcomeComponent {
     },
     {
       id: '02',
-      name: '-',
-      slug: '-'
+      name: 'Hero With Video Background',
+      slug: 'hero-with-video-bg'
     },
     {
       id: '03',
