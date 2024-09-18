@@ -1,0 +1,35 @@
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 3rem auto;
+
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  line-height: 1.5;
+}
+
+// nav ul {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   display: flex;
+//   align-items: center;
+//   gap: 2rem;
+// }
+
+// nav ul a {
+//   text-decoration: none;
+//   color: #151618;
+// }
+
+.btn {
+  background-color: #6e32ef;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #6e32ef;
+}

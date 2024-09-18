@@ -38,8 +38,8 @@ export class AnalogWelcomeComponent {
     },
     {
       id: '03',
-      name: '-',
-      slug: '-'
+      name: 'Website Header',
+      slug: 'website-header'
     },
     {
       id: '04',
