@@ -15,7 +15,8 @@ import { RouterLink } from '@angular/router';
       <h1 class="uppercase text-[#353535] mb-8 font-bold text-4xl">Motion design</h1>
         <div class="grid grid-cols-5 gap-4">
           @for (exercice of exercices; track $index) {
-            <div (click)="navTo(exercice.slug)" class="cursor-pointer p-8 rounded-md bg-[#01888F] text-[#FEF2E8] max-w-48 hover:bg-[#01686e]">
+            <div (click)="navTo(exercice.slug)" class="cursor-pointer p-8 rounded-md bg-[#01888F] text-[#FEF2E8] max-w-48 hover:bg-[#01686e]
+            transition duration-300 ease-in-out">
               <span class="font-bold text-2xl text-[#E7EBF3]">{{ exercice.id }}</span>
               <h2 class="uppercase text-xs mt-4 font-bold">{{ exercice.name }}</h2>
             </div>
@@ -43,8 +44,8 @@ export class AnalogWelcomeComponent {
     },
     {
       id: '04',
-      name: '-',
-      slug: '-'
+      name: 'Simple Dropdown Menu',
+      slug: 'simple-dropdown-menu'
     },
     {
       id: '05',
